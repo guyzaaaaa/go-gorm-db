@@ -73,7 +73,7 @@ func main() {
 	})
 
 	// Run the server
-	if err := r.Run(":8000"); err != nil {
+	if err := r.Run(":5000"); err != nil {
 		log.Fatalf("Server is not running: %v", err)
 	}
 }
